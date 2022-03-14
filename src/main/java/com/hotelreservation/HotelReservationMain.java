@@ -15,7 +15,7 @@ public class HotelReservationMain {
 		try {
 			Hotel hotel1 = new Hotel("LakeWood", 110);
 			Hotel hotel2 = new Hotel("BridgeWood", 160);
-			Hotel hotel3 = new Hotel("BridgeWood", 220);
+			Hotel hotel3 = new Hotel("RidgeWood", 220);
 			HotelReservationSystem hotelSystem = new HotelReservationSystem();
 			hotelSystem.add(hotel1);
 			hotelSystem.add(hotel2);

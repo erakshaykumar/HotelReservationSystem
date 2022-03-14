@@ -25,7 +25,29 @@ public class HotelReservationSystemTest {
 			hotelSystem.getArrayList().forEach(hotelNameList -> System.out.println(hotelNameList));
 			Assert.assertEquals(size, hotelSystem.size());
 		} catch (Exception e) {
-			System.out.println("Issue In Adding Hotel");
+			System.out.println("Issue In Adding Hotel1");
+		}
+
+		try {
+			Hotel hotel2 = new Hotel("BridgeWood", 160);
+			HotelReservationSystem hotelSystem = new HotelReservationSystem();
+			hotelSystem.add(hotel2);
+			Integer size = 1;
+			hotelSystem.getArrayList().forEach(hotelNameList -> System.out.println(hotelNameList));
+			Assert.assertEquals(size, hotelSystem.size());
+		} catch (Exception e) {
+			System.out.println("Issue In Adding Hotel2");
+		}
+
+		try {
+			Hotel hotel3 = new Hotel("RidgeWood", 220);
+			HotelReservationSystem hotelSystem = new HotelReservationSystem();
+			hotelSystem.add(hotel3);
+			Integer size = 1;
+			hotelSystem.getArrayList().forEach(hotelNameList -> System.out.println(hotelNameList));
+			Assert.assertEquals(size, hotelSystem.size());
+		} catch (Exception e) {
+			System.out.println("Issue In Adding Hotel3");
 		}
 	}
 }
