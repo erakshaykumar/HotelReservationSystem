@@ -16,12 +16,16 @@ public class HotelReservationSystemTest {
 	 */
 	@Test
 	public void GivenHotels_AddedToTheHotelReservationSystem() {
-		System.out.println("Welcome to the Hotel Registration system");
-		Hotel hotel1 = new Hotel("LakeWood", 110);
-		HotelReservationSystem hotelSystem = new HotelReservationSystem();
-		hotelSystem.add(hotel1);
-		Integer size = 1;
-		hotelSystem.getArrayList().forEach(h -> System.out.println(h));
-		Assert.assertEquals(size, hotelSystem.size());
+		try {
+			System.out.println("Welcome to the Hotel Registration system");
+			Hotel hotel1 = new Hotel("LakeWood", 110);
+			HotelReservationSystem hotelSystem = new HotelReservationSystem();
+			hotelSystem.add(hotel1);
+			Integer size = 1;
+			hotelSystem.getArrayList().forEach(hotelNameList -> System.out.println(hotelNameList));
+			Assert.assertEquals(size, hotelSystem.size());
+		} catch (Exception e) {
+			System.out.println("Issue In Adding Hotel");
+		}
 	}
 }
