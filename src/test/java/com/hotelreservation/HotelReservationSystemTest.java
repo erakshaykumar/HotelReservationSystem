@@ -9,7 +9,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class HotelReservationSystemTest {
-
+	/*
+	 * @Purpose : Checking Proper Adding Of Hotels
+	 * 
+	 * @Param : ArrayList of Hotel To Compare
+	 */
 	@Test
 	public void GivenHotels_AddedToTheHotelReservationSystem() {
 		System.out.println("Welcome to the Hotel Registration system");
