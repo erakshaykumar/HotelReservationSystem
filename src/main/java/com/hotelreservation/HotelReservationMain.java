@@ -19,6 +19,6 @@ public class HotelReservationMain {
 		hotelSystem.add(hotel1);
 		hotelSystem.add(hotel2);
 		hotelSystem.add(hotel3);
-		hotelSystem.getArrayList().forEach(h -> System.out.println(h));
+		hotelSystem.getArrayList().forEach(hotelNameList -> System.out.println(hotelNameList));
 	}
 }
