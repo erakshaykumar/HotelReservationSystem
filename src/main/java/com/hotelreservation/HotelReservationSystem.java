@@ -1,5 +1,5 @@
 /* @Purpose: Ability to Add Hotel in a Hotel Reservation System With Name And Rates For Regular Customer
- * @File : Hotel Reservation system
+ * @File : Hotel Reservation System
  * @Author : Akshay Kumar
  */
 
